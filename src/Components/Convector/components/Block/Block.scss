@@ -1,0 +1,26 @@
+.block {
+  &__currency-block {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    margin: 10px 50px;
+    border: 1px solid #000;
+  }
+  &__currencies {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+  }
+  &__currencies-list {
+    cursor: pointer;
+    padding: 10px;
+    
+  }
+  
+}
+.active {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: rgb(23, 170, 23);
+  color: #fff;
+}
